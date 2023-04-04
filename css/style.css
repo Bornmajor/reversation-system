@@ -1,0 +1,189 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-link,.navbar-brand{
+    color:white;
+}
+.navbar-toggler,.navbar-toggler-icon{
+    background-color: rgb(243, 240, 240);
+    /* color:white; */
+}
+#section1{
+   
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    /* align-items:center; */
+justify-content: center;
+
+}
+#filter_trip,#bus_routes{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+}
+#filter_trip{
+    border-radius: 5px;
+ 
+}
+#text_input{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    margin:5px;
+
+}
+#datepicker{
+    margin:5px;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.search_div{
+    display: inline-block;
+}
+#section2{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    /* align-items:center; */
+justify-content: center;
+}
+
+.item_service{
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    padding:20px;
+    margin:20px;
+    width:18rem;
+}
+.serv_title{
+    font-weight: 600;
+    font-size: 18px;
+}
+.serv_desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.serv_img{
+    display: flex;
+   justify-content: center;
+}
+.serv_img img{
+    max-width: 150px;
+}
+#section3{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+ 
+justify-content: center;
+}
+#section{
+    padding:20px;
+}
+.form-label{
+    font-weight: 600;
+}
+.btn-primary{
+    background-color: #A020F0;
+}
+.trip_card{
+    margin:10px;
+    background-color: #f1f1f1;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+.trip_card div{
+    padding:8px;
+}
+.trip_route{
+  line-height: 10px;
+    font-weight: 550;
+    font-size: 18px;
+}
+.dept_arr{
+    font-size: 14px;
+}
+.trip_price{
+    font-size: 14px;
+    line-height: 10px;
+}
+.class_title{
+    font-weight:650;
+}
+.amenities{
+    margin:10px;
+}
+.amenities_img{
+    width:30px;
+}
+.available_seats{
+    color:#A020F0;
+    font-weight: 650;
+    font-size: 18px;
+}
+/* <datalist> and <option> styling */
+datalist {
+    position: absolute;
+    max-height: 20em;
+    border: 0 none;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  datalist option {
+    font-size: 0.8em;
+    padding: 0.3em 1em;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  datalist option:hover, datalist option:focus {
+    color: #fff;
+    background-color: #036;
+    outline: 0 none;
+  }
+
+  footer{
+    padding:20px;
+    background-color: #A020F0;
+    color:white;
+    
+  }
+  footer a{
+    color:white;
+    padding:5px;
+    text-decoration: none;
+   font-size: 18px;
+
+  }
+  footer a:hover{
+    color:black;
+  }
+   .trip_info{
+    display: flex;
+   }
+   .trip_info div{
+    margin:5px;
+    font-weight: 600;
+   }
+
+
+  @media screen and (max-width: 810px){
+   #section1,#section2,#section3,.trip_card,.container_seats{
+    flex-direction: column;
+   }
+
+
+}
+    /* #563d7c */
+    /* #a020f0 */
